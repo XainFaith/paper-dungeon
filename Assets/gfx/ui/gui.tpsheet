@@ -1,0 +1,86 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:87db3249fdcebe72af22220a22469c02:1797e2367179bbe18c764692e3352131:815866c4c46af935d0bce530a96dd3a9$
+#
+:format=40300
+:texture=gui.png
+:size=512x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+angled-1;429;465;32;32; 0;1; 0;0;0;0
+angled-2;390;444;32;32; 0;1; 0;0;0;0
+angled-3;424;431;32;32; 0;1; 0;0;0;0
+angled-4;390;410;32;32; 0;1; 0;0;0;0
+angled-5;424;397;32;32; 0;1; 0;0;0;0
+angled-6;390;376;32;32; 0;1; 0;0;0;0
+angled-alt-2;424;363;32;32; 0;1; 0;0;0;0
+angled-alt-3;284;374;32;32; 0;1; 0;0;0;0
+angled-alt-6;318;374;32;32; 0;1; 0;0;0;0
+arrow-disabled-down;458;428;25;25; 0;1; 0;0;0;0
+arrow-disabled-left;458;401;25;25; 0;1; 0;0;0;0
+arrow-disabled-right;458;374;25;25; 0;1; 0;0;0;0
+arrow-disabled-up;458;347;25;25; 0;1; 0;0;0;0
+arrow-hover-down;283;313;25;25; 0;1; 0;0;0;0
+arrow-hover-left;310;313;25;25; 0;1; 0;0;0;0
+arrow-hover-right;337;313;25;25; 0;1; 0;0;0;0
+arrow-hover-up;283;286;25;25; 0;1; 0;0;0;0
+arrow-normal-down;310;286;25;25; 0;1; 0;0;0;0
+arrow-normal-left;337;286;25;25; 0;1; 0;0;0;0
+arrow-normal-right;364;281;25;25; 0;1; 0;0;0;0
+arrow-normal-up;391;281;25;25; 0;1; 0;0;0;0
+arrow-numeric-disabled-down;418;268;25;25; 0;1; 0;0;0;0
+arrow-numeric-disabled-left;445;252;25;25; 0;1; 0;0;0;0
+arrow-numeric-disabled-right;1;215;25;25; 0;1; 0;0;0;0
+arrow-numeric-disabled-up;1;254;25;25; 0;1; 0;0;0;0
+arrow-numeric-hover-down;1;188;25;25; 0;1; 0;0;0;0
+arrow-numeric-hover-left;1;161;25;25; 0;1; 0;0;0;0
+arrow-numeric-hover-right;1;134;25;25; 0;1; 0;0;0;0
+arrow-numeric-hover-up;1;107;25;25; 0;1; 0;0;0;0
+arrow-numeric-normal-down;1;80;25;25; 0;1; 0;0;0;0
+arrow-numeric-normal-left;1;53;25;25; 0;1; 0;0;0;0
+arrow-numeric-normal-right;1;26;25;25; 0;1; 0;0;0;0
+arrow-numeric-normal-up;28;215;25;25; 0;1; 0;0;0;0
+arrow-numeric-pressed-down;28;254;25;25; 0;1; 0;0;0;0
+arrow-numeric-pressed-left;28;188;25;25; 0;1; 0;0;0;0
+arrow-numeric-pressed-right;28;161;25;25; 0;1; 0;0;0;0
+arrow-numeric-pressed-up;28;134;25;25; 0;1; 0;0;0;0
+arrow-pressed-down;28;107;25;25; 0;1; 0;0;0;0
+arrow-pressed-left;28;80;25;25; 0;1; 0;0;0;0
+arrow-pressed-right;28;53;25;25; 0;1; 0;0;0;0
+arrow-pressed-up;28;26;25;25; 0;1; 0;0;0;0
+button-default;1;349;281;52; 0;1; 0;0;0;0
+button-disabled;1;458;281;53; 0;1; 0;0;0;0
+button-hover;1;294;280;53; 0;1; 0;0;0;0
+button-pressed;1;403;281;53; 0;1; 0;0;0;0
+checkbox-deselected;485;467;26;22; 0;1; 0;0;0;0
+checkbox-disabled-deselected;485;443;26;22; 0;1; 0;0;0;0
+checkbox-disabled-selected;485;419;26;22; 0;1; 0;0;0;0
+checkbox-hover-deselected;485;395;26;22; 0;1; 0;0;0;0
+checkbox-hover-selected;485;371;26;22; 0;1; 0;0;0;0
+checkbox-selected;485;347;26;22; 0;1; 0;0;0;0
+front-1;352;374;32;32; 0;1; 0;0;0;0
+front-2;386;342;32;32; 0;1; 0;0;0;0
+front-3;420;329;32;32; 0;1; 0;0;0;0
+front-4;454;313;32;32; 0;1; 0;0;0;0
+front-5;284;340;32;32; 0;1; 0;0;0;0
+front-6;318;340;32;32; 0;1; 0;0;0;0
+front-alt-2;352;340;32;32; 0;1; 0;0;0;0
+front-alt-3;386;308;32;32; 0;1; 0;0;0;0
+front-alt-6;420;295;32;32; 0;1; 0;0;0;0
+panel-bg;454;279;32;32; 0;1; 0;0;0;0
+panel;284;408;104;89; 0;1; 0;0;0;0
+radio_button_default;488;491;20;20; 0;1; 0;0;0;0
+radio_button_default_disabled;463;477;20;20; 0;1; 0;0;0;0
+radio_button_default_hover;463;455;20;20; 0;1; 0;0;0;0
+radio_button_selected;488;325;20;20; 0;1; 0;0;0;0
+radio_button_selected_disabled;488;303;20;20; 0;1; 0;0;0;0
+radio_button_selected_hover;488;281;20;20; 0;1; 0;0;0;0
+scroll-handle;390;478;37;19; 0;1; 0;0;0;0
+scrollbar-bg;284;499;202;12; 0;1; 0;0;0;0
+slider_handle;488;242;19;37; 0;1; 0;0;0;0

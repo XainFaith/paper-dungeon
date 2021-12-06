@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/ui/default.uss?fileID=7433441132597879392&amp;guid=aa722ce01c467ea489b29b863fd8751d&amp;type=3#default" />
+    <ui:GroupBox style="width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/gfx/SplashBg.png?fileID=2800000&amp;guid=6e8df05e9aad2d14094657cc1c8c6c1f&amp;type=3#SplashBg&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; align-items: center; justify-content: center;">
+        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/gfx/paperbg.png?fileID=2800000&amp;guid=ad9896ece7b37d1498205b23edcb753f&amp;type=3#paperbg&apos;); -unity-background-scale-mode: stretch-to-fill; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 220px; height: auto; align-items: center; left: auto;">
+            <ui:GroupBox name="MenuBorder" style="left: auto; top: auto; right: auto; bottom: auto; background-image: url(&apos;project://database/Assets/gfx/ui/gui.png?fileID=-4147214026715712772&amp;guid=92d5a72ac83f9b9418392a46b55ce655&amp;type=3#panel&apos;); -unity-slice-left: 9; -unity-slice-top: 9; -unity-slice-right: 9; -unity-slice-bottom: 9; width: 225px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 25px; padding-bottom: 25px; align-items: center;">
+                <ui:Button text="New" display-tooltip-when-elided="true" name="NewGameButton" style="width: 180px; color: rgba(255, 228, 150, 255); font-size: 16px; -unity-font-style: normal;" />
+                <ui:Button text="Load" display-tooltip-when-elided="true" name="LoadGameButton" style="width: 180px; font-size: 16px; color: rgba(255, 228, 150, 255); white-space: normal;" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" style="width: 180px; left: auto; white-space: normal; color: rgba(255, 228, 150, 255); font-size: 16px;" />
+                <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" style="width: 180px; color: rgba(255, 228, 150, 255); font-size: 16px;" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>

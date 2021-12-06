@@ -1,0 +1,9 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/gfx/ui/gui.tpsheet
+textureFileNames:
+- Assets/gfx/ui/gui.png
+normalmapFileNames:
+- 
+enableDebugOutput: 0

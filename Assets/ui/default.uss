@@ -1,0 +1,125 @@
+Label{
+    color: white;
+}
+
+Label:selected{
+    color: white;
+}
+
+Button {
+    background-image: url('/Assets/gfx/ui/gui.png#button-default');
+    background-color: transparent;
+    border-width: 0;
+}
+
+Button:hover {
+    background-image: url('/Assets/gfx/ui/gui.png#button-hover');
+}
+
+Button:active {
+    background-image: url('/Assets/gfx/ui/gui.png#button-pressed');
+}
+
+Button:disabled {
+    background-image: url('/Assets/gfx/ui/gui.png#button-disabled');
+}
+
+
+RadioButton > VisualElement {
+    flex: none;
+    background-color: transparent;
+    -unity-background-image-tint-color: white;
+    border-width: 0;
+}
+
+RadioButton .unity-radio-button__checkmark-background{
+    background-color: transparent;
+    -unity-background-image-tint-color: white;
+    border-width: 0;
+}
+
+RadioButton .unity-radio-button__checkmark{
+    background-image: none;
+    background-color: transparent;
+}
+
+RadioButton > VisualElement .unity-radio-button__checkmark-background{
+    background-image: url('/Assets/gfx/ui/gui.png#radio_button_default');
+    background-color: transparent;
+    -unity-background-image-tint-color: white;
+    border-width: 0;
+}
+
+RadioButton > VisualElement:hover .unity-radio-button__checkmark-background{
+    background-image: url('/Assets/gfx/ui/gui.png#radio_button_default_hover');
+}
+
+RadioButton > VisualElement:selected .unity-radio-button__checkmark-background{
+    background-image: url('/Assets/gfx/ui/gui.png#radio_button_selected');
+}
+
+RadioButton > VisualElement:selected:hover .unity-radio-button__checkmark-background{
+    background-image: url('/Assets/gfx/ui/gui.png#radio_button_selected_hover');
+}
+
+Toggle > VisualElement{
+    flex: none;
+}
+
+Toggle > VisualElement .unity-toggle__checkmark {
+    background-image: url('/Assets/gfx/ui/gui.png#checkbox-deselected');
+    background-color: transparent;
+    -unity-background-image-tint-color: white;
+    border-width: 0;
+}
+
+Toggle > VisualElement:hover .unity-toggle__checkmark {
+    background-image: url('/Assets/gfx/ui/gui.png#checkbox-hover-deselected');
+}
+
+Toggle > VisualElement:disabled .unity-toggle__checkmark {
+    background-image: url('/Assets/gfx/ui/gui.png#checkbox-disabled-deselected');
+}
+
+Toggle > VisualElement:disabled:selected .unity-toggle__checkmark {
+    background-image: url('/Assets/gfx/ui/gui.png#checkbox-disabled-selected');
+}
+
+Toggle > VisualElement:selected .unity-toggle__checkmark {
+    background-image: url('/Assets/gfx/ui/gui.png#checkbox-selected');
+}
+
+Toggle > VisualElement:hover:selected .unity-toggle__checkmark {
+    background-image: url('/Assets/gfx/ui/gui.png#checkbox-hover-selected');
+}
+
+Slider > VisualElement #unity-tracker {
+    background-image: url('/Assets/gfx/ui/gui.png#scrollbar-bg');
+        height: 12px;
+}
+
+Slider #unity-dragger-border {
+    border-width: 0px;
+}
+
+Slider > VisualElement #unity-dragger {
+    background-image: url('/Assets/gfx/ui/gui.png#slider_handle');
+    background-color: transparent;
+    width: 19px;
+    height: 30px;
+}
+
+Slider > VisualElement:active #unity-dragger
+{
+    border-width: 0px;
+}
+
+Slider > VisualElement:inactive #unity-dragger
+{
+    border-width: 0px;
+}
+
+Slider > VisualElement:hover #unity-dragger
+{
+    border-width: 0px;
+}
