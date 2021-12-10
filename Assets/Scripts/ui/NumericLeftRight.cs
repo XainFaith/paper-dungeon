@@ -6,20 +6,51 @@ using UnityEngine.UIElements;
 
 public class NumericLeftRight : VisualElement
 {
-    public string LabelText;
 
-    public int NumericValue;
+
+    public string LabelText
+    {
+        get
+        {
+            return this.controlLabel.text;
+        }
+        set
+        {
+            this.controlLabel.text = value;
+        }
+    }
 
     public int MaxValue
     {
-        get;
-        set;
+        get
+        {
+            return this.maxValue;
+        }
+        set
+        {
+            this.maxValue = value;
+            if (this.currentValue > value)
+            {
+                this.Value = value;
+            }
+        }
     }
 
     public int MinValue
     {
-        get;
-        set;
+        get
+        {
+            return this.minValue;
+        }
+        set
+        {
+            this.minValue = value;
+            if(this.currentValue < value)
+            {
+                this.Value = value;
+                Debug.Log(this.currentValue);
+            }
+        }
     }
 
     public int ValueStepSize
@@ -40,10 +71,22 @@ public class NumericLeftRight : VisualElement
         set;
     }
 
+    public int Value
+    {
+        get { return this.currentValue; }
+        set 
+        {
+            this.currentValue = value;
+            this.valueLabel.text = value.ToString();
+        }
+    }
+
     private Label controlLabel;
     private Label valueLabel;
 
     private int currentValue;
+    private int minValue;
+    private int maxValue;
 
     public NumericLeftRight()
     {
@@ -59,7 +102,7 @@ public class NumericLeftRight : VisualElement
 
         this.subButton.clicked += SubButton_clicked;
 
-        this.valueLabel = new Label("0");
+        this.valueLabel = new Label(this.currentValue.ToString());
         this.valueLabel.AddToClassList("numeric-value-label");
         this.valueLabel.text = this.currentValue.ToString();
         this.Add(this.valueLabel);
@@ -122,7 +165,6 @@ public class NumericLeftRight : VisualElement
         public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription
         {
             get {
-                Debug.Log("Test");
                 yield break; 
             }
         }
@@ -133,13 +175,12 @@ public class NumericLeftRight : VisualElement
             var ate = ve as NumericLeftRight;
 
             ate.controlLabel.text = control_label_string.GetValueFromBag(bag, cc);
-            
             ate.MinValue = min_Int.GetValueFromBag(bag, cc);
             ate.MaxValue = max_Int.GetValueFromBag(bag, cc);
-
             ate.ValueStepSize = step_Int.GetValueFromBag(bag, cc);
         }
     }
+
 
     #endregion
 }
