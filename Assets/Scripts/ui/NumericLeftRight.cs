@@ -48,7 +48,6 @@ public class NumericLeftRight : VisualElement
             if(this.currentValue < value)
             {
                 this.Value = value;
-                Debug.Log(this.currentValue);
             }
         }
     }
