@@ -6,7 +6,22 @@ using UnityEngine.UIElements;
 
 public class NumericLeftRight : VisualElement
 {
+    /// <summary>
+    /// Delegate for Value change validation
+    /// </summary>
+    /// <returns></returns>
+    public delegate bool ValueChange();
 
+    /// <summary>
+    /// Delegate is used to validate the change the control is trying to apply to the Numeric Value
+    /// </summary>
+    public ValueChange Increment;
+
+
+    /// <summary>
+    /// Delegate is used to validate the change the control is trying to apply to the Numeric Value
+    /// </summary>
+    public ValueChange Decrement;
 
     public string LabelText
     {
@@ -20,6 +35,9 @@ public class NumericLeftRight : VisualElement
         }
     }
 
+    /// <summary>
+    /// Max value that can be set
+    /// </summary>
     public int MaxValue
     {
         get
@@ -36,6 +54,9 @@ public class NumericLeftRight : VisualElement
         }
     }
 
+    /// <summary>
+    /// Min value that can be set
+    /// </summary>
     public int MinValue
     {
         get
@@ -52,19 +73,10 @@ public class NumericLeftRight : VisualElement
         }
     }
 
+    /// <summary>
+    /// The value that each change increments or decrements
+    /// </summary>
     public int ValueStepSize
-    {
-        get;
-        set;
-    }
-
-    public Button subButton
-    {
-        get;
-        set;
-    }
-
-    public Button addButton
     {
         get;
         set;
@@ -86,6 +98,17 @@ public class NumericLeftRight : VisualElement
     private int currentValue;
     private int minValue;
     private int maxValue;
+
+    /// <summary>
+    /// Refrence to the Subtraction Button
+    /// </summary>
+    private Button subButton;
+
+    /// <summary>
+    /// Refrence to the Addition Button
+    /// </summary>
+    private Button addButton;
+   
 
     public NumericLeftRight()
     {
@@ -114,29 +137,55 @@ public class NumericLeftRight : VisualElement
         this.addButton.clicked += AddButton_clicked;
     }
 
+    /// <summary>
+    /// Called when the Add Button is clicked and is used to validate the value change
+    /// </summary>
     private void AddButton_clicked()
     {
-        if(this.currentValue < this.MaxValue)
+        if (this.currentValue < this.MaxValue)
         {
-            this.currentValue+= this.ValueStepSize;
-            this.valueLabel.text = this.currentValue.ToString();
-            if(this.currentValue > this.MaxValue)
+            bool canOp = true;
+            if (this.Increment != null)
             {
-                this.currentValue = this.MaxValue;
+                canOp = this.Increment();
+            }
+
+            if (canOp)
+            {
+                this.currentValue += this.ValueStepSize;
+                this.valueLabel.text = this.currentValue.ToString();
+                if (this.currentValue > this.MaxValue)
+                {
+                    this.currentValue = this.MaxValue;
+                }
             }
         }
     }
-
+   
+    /// <summary>
+    /// Called when the Sub Button is clicked and is used to validate the value change
+    /// </summary>
     private void SubButton_clicked()
     {
         if (this.currentValue > this.MinValue)
         {
-            this.currentValue -= this.ValueStepSize;
-            this.valueLabel.text = this.currentValue.ToString();
 
-            if (this.currentValue < this.MinValue)
+            bool canOp = true;
+
+            if (this.Decrement != null)
             {
-                this.currentValue = this.MinValue;
+                canOp = this.Decrement();
+            }
+
+            if (canOp)
+            {
+                this.currentValue -= this.ValueStepSize;
+                this.valueLabel.text = this.currentValue.ToString();
+
+                if (this.currentValue < this.MinValue)
+                {
+                    this.currentValue = this.MinValue;
+                }
             }
         }
     }
