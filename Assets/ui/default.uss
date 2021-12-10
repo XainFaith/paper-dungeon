@@ -10,6 +10,10 @@ NumericLeftRight > Label{
     min-width: 50px;
 }
 
+.stats-label-group{
+    width: 300px;
+}
+
 .numeric-value-label{
     width: 50px;
     -unity-text-align: middle-center;
