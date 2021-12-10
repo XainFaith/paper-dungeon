@@ -1,9 +1,63 @@
-Label{
+Button > Label{
     color: white;
 }
 
-Label:selected{
+Button > Label:selected{
     color: white;
+}
+
+NumericLeftRight > Label{
+    min-width: 50px;
+}
+
+.numeric-value-label{
+    width: 50px;
+    -unity-text-align: middle-center;
+}
+
+.numeric-sub{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-normal-left');
+    width: 25px;
+    height: 25px;
+}
+
+.numeric-sub:hover{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-hover-left');
+}
+
+.numeric-sub:active{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-pressed-left');
+}
+
+.numeric-sub:disabled{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-disabled-left');
+}
+
+.numeric-add{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-normal-right');
+    width: 25px;
+    height: 25px;
+}
+
+.numeric-add:hover{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-hover-right');
+}
+
+.numeric-add:active{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-pressed-right');
+}
+
+.numeric-add:disabled{
+    background-image: url('/Assets/gfx/ui/gui.png#arrow-numeric-disabled-right');
+}
+
+TextField #unity-text-input{
+    width: 200px;
+    padding: 0px;
+    background-color: darkgrey;
+    color: white;
+    height: 24px;
+    margin: 4px;
 }
 
 Button {
