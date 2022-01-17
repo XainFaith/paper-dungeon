@@ -1,8 +1,9 @@
 Button > Label{
     color: white;
+    font-size: 18px;
 }
 
-Button > Label:selected{
+Button > Label:active{
     color: white;
 }
 
@@ -10,8 +11,86 @@ NumericLeftRight > Label{
     min-width: 50px;
 }
 
+Label {
+    font-size: 18px;
+    color: white;
+}
+
 .stats-label-group{
     width: 300px;
+}
+
+.font_center {
+    justify-content: center;
+    -unity-text-align: middle-center;
+}
+
+.class_selector_button_base{
+    width: 150px;
+    height: 150px;
+
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(0, 13, 26, 0.5);
+    border-color: rgba(0, 13, 26, 0.5); 
+    margin: 25px;
+
+    border-width: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.class_selector_button_base > Label
+{
+    width: 100%;
+     justify-content: center;
+    -unity-text-align: middle-center;
+}
+
+.class_selector_button_base:hover, .class_selector_button_base:active, .class_selector_button_base:checked{
+    border-color: gold;   
+    border-width: 2px;
+}
+
+.class_mage_icon > VisualElement .unity-radio-button__checkmark-background
+{
+    background-image: url('/Assets/gfx/ui/gui.png#class_mage_icon');
+    height: 120px;
+    width: 120px;
+}
+
+.class_mage_icon:hover > VisualElement .unity-radio-button__checkmark-background
+{
+    background-image: url('/Assets/gfx/ui/gui.png#class_mage_icon');
+}
+
+.class_mage_icon > VisualElement .unity-radio-button__checkmark-background, .class_mage_icon > VisualElement:hover .unity-radio-button__checkmark-background, .class_mage_icon > VisualElement:checked .unity-radio-button__checkmark-background, .class_mage_icon > VisualElement:checked:hover .unity-radio-button__checkmark-background
+{
+    background-image: url('/Assets/gfx/ui/gui.png#class_mage_icon');
+}
+
+.class_warrior_icon > VisualElement .unity-radio-button__checkmark-background, .class_warrior_icon > VisualElement:hover .unity-radio-button__checkmark-background, .class_warrior_icon > VisualElement:checked .unity-radio-button__checkmark-background, .class_warrior_icon > VisualElement:checked:hover .unity-radio-button__checkmark-background
+{
+    background-image: url('/Assets/gfx/ui/gui.png#class_warrior_icon');
+    height: 120px;
+    width: 120px;
+}
+
+.class_thief_icon > VisualElement .unity-radio-button__checkmark-background, .class_thief_icon > VisualElement:hover .unity-radio-button__checkmark-background, .class_thief_icon > VisualElement:checked .unity-radio-button__checkmark-background, .class_thief_icon > VisualElement:checked:hover .unity-radio-button__checkmark-background
+{
+    background-image: url('/Assets/gfx/ui/gui.png#class_thief_icon');
+    height: 120px;
+    width: 120px;
+}
+
+.class_priest_icon > VisualElement .unity-radio-button__checkmark-background, .class_priest_icon > VisualElement:hover .unity-radio-button__checkmark-background, .class_priest_icon > VisualElement:checked .unity-radio-button__checkmark-background, .class_priest_icon > VisualElement:checked:hover .unity-radio-button__checkmark-background
+{
+    background-image: url('/Assets/gfx/ui/gui.png#class_priest_icon');
+    height: 120px;
+    width: 120px;
 }
 
 .numeric-value-label{
@@ -68,6 +147,7 @@ Button {
     background-image: url('/Assets/gfx/ui/gui.png#button-default');
     background-color: transparent;
     border-width: 0;
+    color: white;
 }
 
 Button:hover {
@@ -112,11 +192,11 @@ RadioButton > VisualElement:hover .unity-radio-button__checkmark-background{
     background-image: url('/Assets/gfx/ui/gui.png#radio_button_default_hover');
 }
 
-RadioButton > VisualElement:selected .unity-radio-button__checkmark-background{
+RadioButton > VisualElement:checked .unity-radio-button__checkmark-background{
     background-image: url('/Assets/gfx/ui/gui.png#radio_button_selected');
 }
 
-RadioButton > VisualElement:selected:hover .unity-radio-button__checkmark-background{
+RadioButton > VisualElement:checked:hover .unity-radio-button__checkmark-background{
     background-image: url('/Assets/gfx/ui/gui.png#radio_button_selected_hover');
 }
 
@@ -139,15 +219,15 @@ Toggle > VisualElement:disabled .unity-toggle__checkmark {
     background-image: url('/Assets/gfx/ui/gui.png#checkbox-disabled-deselected');
 }
 
-Toggle > VisualElement:disabled:selected .unity-toggle__checkmark {
+Toggle > VisualElement:disabled:checked .unity-toggle__checkmark {
     background-image: url('/Assets/gfx/ui/gui.png#checkbox-disabled-selected');
 }
 
-Toggle > VisualElement:selected .unity-toggle__checkmark {
+Toggle > VisualElement:checked .unity-toggle__checkmark {
     background-image: url('/Assets/gfx/ui/gui.png#checkbox-selected');
 }
 
-Toggle > VisualElement:hover:selected .unity-toggle__checkmark {
+Toggle > VisualElement:hover:checked .unity-toggle__checkmark {
     background-image: url('/Assets/gfx/ui/gui.png#checkbox-hover-selected');
 }
 
