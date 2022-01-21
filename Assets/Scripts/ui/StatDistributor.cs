@@ -140,6 +140,22 @@ public class StatDistributor : VisualElement
         this.chaNumeric.LabelText = "Cha:";
     }
 
+    public void RollStatePoints()
+    {
+        this.Reset();
+        this.StatPoints = Random.Range(10, 16);
+    }
+
+    private void Reset()
+    {
+        this.strNumeric.Value = 12;
+        this.dexNumeric.Value = 12;
+        this.conNumeric.Value = 12;
+        this.wisNumeric.Value = 12;
+        this.intNumeric.Value = 12;
+        this.chaNumeric.Value = 12;
+    }
+
     /// <summary>
     /// Helper function for instancing Numeric controls with preset values
     /// </summary>
