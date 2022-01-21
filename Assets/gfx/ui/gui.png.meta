@@ -245,7 +245,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -474,7 +474,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 458
-        y: 428
+        y: 426
         width: 25
         height: 25
       alignment: 1
@@ -495,7 +495,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 458
-        y: 401
+        y: 399
         width: 25
         height: 25
       alignment: 1
@@ -515,9 +515,9 @@ TextureImporter:
       name: arrow-disabled-right
       rect:
         serializedVersion: 2
-        x: 458
-        y: 374
-        width: 25
+        x: 1
+        y: 134
+        width: 24
         height: 25
       alignment: 1
       pivot: {x: 0, y: 1}
@@ -537,7 +537,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 458
-        y: 347
+        y: 372
         width: 25
         height: 25
       alignment: 1
@@ -557,8 +557,8 @@ TextureImporter:
       name: arrow-hover-down
       rect:
         serializedVersion: 2
-        x: 283
-        y: 313
+        x: 485
+        y: 368
         width: 25
         height: 25
       alignment: 1
@@ -578,8 +578,8 @@ TextureImporter:
       name: arrow-hover-left
       rect:
         serializedVersion: 2
-        x: 310
-        y: 313
+        x: 458
+        y: 345
         width: 25
         height: 25
       alignment: 1
@@ -599,9 +599,9 @@ TextureImporter:
       name: arrow-hover-right
       rect:
         serializedVersion: 2
-        x: 337
-        y: 313
-        width: 25
+        x: 1
+        y: 107
+        width: 24
         height: 25
       alignment: 1
       pivot: {x: 0, y: 1}
@@ -620,10 +620,10 @@ TextureImporter:
       name: arrow-hover-up
       rect:
         serializedVersion: 2
-        x: 283
-        y: 286
+        x: 1
+        y: 81
         width: 25
-        height: 25
+        height: 24
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,10 +641,10 @@ TextureImporter:
       name: arrow-normal-down
       rect:
         serializedVersion: 2
-        x: 310
-        y: 286
+        x: 27
+        y: 135
         width: 25
-        height: 25
+        height: 24
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,8 +662,8 @@ TextureImporter:
       name: arrow-normal-left
       rect:
         serializedVersion: 2
-        x: 337
-        y: 286
+        x: 485
+        y: 341
         width: 25
         height: 25
       alignment: 1
@@ -683,8 +683,8 @@ TextureImporter:
       name: arrow-normal-right
       rect:
         serializedVersion: 2
-        x: 364
-        y: 281
+        x: 313
+        y: 317
         width: 25
         height: 25
       alignment: 1
@@ -704,10 +704,10 @@ TextureImporter:
       name: arrow-normal-up
       rect:
         serializedVersion: 2
-        x: 391
-        y: 281
+        x: 27
+        y: 109
         width: 25
-        height: 25
+        height: 24
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,8 +725,8 @@ TextureImporter:
       name: arrow-numeric-disabled-down
       rect:
         serializedVersion: 2
-        x: 418
-        y: 268
+        x: 340
+        y: 315
         width: 25
         height: 25
       alignment: 1
@@ -746,8 +746,8 @@ TextureImporter:
       name: arrow-numeric-disabled-left
       rect:
         serializedVersion: 2
-        x: 445
-        y: 252
+        x: 313
+        y: 290
         width: 25
         height: 25
       alignment: 1
@@ -767,8 +767,8 @@ TextureImporter:
       name: arrow-numeric-disabled-right
       rect:
         serializedVersion: 2
-        x: 1
-        y: 215
+        x: 283
+        y: 287
         width: 25
         height: 25
       alignment: 1
@@ -788,8 +788,8 @@ TextureImporter:
       name: arrow-numeric-disabled-up
       rect:
         serializedVersion: 2
-        x: 1
-        y: 254
+        x: 340
+        y: 288
         width: 25
         height: 25
       alignment: 1
@@ -809,8 +809,8 @@ TextureImporter:
       name: arrow-numeric-hover-down
       rect:
         serializedVersion: 2
-        x: 1
-        y: 188
+        x: 310
+        y: 263
         width: 25
         height: 25
       alignment: 1
@@ -830,8 +830,8 @@ TextureImporter:
       name: arrow-numeric-hover-left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 161
+        x: 367
+        y: 285
         width: 25
         height: 25
       alignment: 1
@@ -851,8 +851,8 @@ TextureImporter:
       name: arrow-numeric-hover-right
       rect:
         serializedVersion: 2
-        x: 1
-        y: 134
+        x: 337
+        y: 261
         width: 25
         height: 25
       alignment: 1
@@ -872,8 +872,8 @@ TextureImporter:
       name: arrow-numeric-hover-up
       rect:
         serializedVersion: 2
-        x: 1
-        y: 107
+        x: 416
+        y: 272
         width: 25
         height: 25
       alignment: 1
@@ -893,8 +893,8 @@ TextureImporter:
       name: arrow-numeric-normal-down
       rect:
         serializedVersion: 2
-        x: 1
-        y: 80
+        x: 364
+        y: 258
         width: 25
         height: 25
       alignment: 1
@@ -914,8 +914,8 @@ TextureImporter:
       name: arrow-numeric-normal-left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 53
+        x: 443
+        y: 257
         width: 25
         height: 25
       alignment: 1
@@ -935,8 +935,8 @@ TextureImporter:
       name: arrow-numeric-normal-right
       rect:
         serializedVersion: 2
-        x: 1
-        y: 26
+        x: 416
+        y: 245
         width: 25
         height: 25
       alignment: 1
@@ -956,8 +956,8 @@ TextureImporter:
       name: arrow-numeric-normal-up
       rect:
         serializedVersion: 2
-        x: 28
-        y: 215
+        x: 470
+        y: 254
         width: 25
         height: 25
       alignment: 1
@@ -977,8 +977,8 @@ TextureImporter:
       name: arrow-numeric-pressed-down
       rect:
         serializedVersion: 2
-        x: 28
-        y: 254
+        x: 443
+        y: 230
         width: 25
         height: 25
       alignment: 1
@@ -998,8 +998,8 @@ TextureImporter:
       name: arrow-numeric-pressed-left
       rect:
         serializedVersion: 2
-        x: 28
-        y: 188
+        x: 470
+        y: 227
         width: 25
         height: 25
       alignment: 1
@@ -1019,8 +1019,8 @@ TextureImporter:
       name: arrow-numeric-pressed-right
       rect:
         serializedVersion: 2
-        x: 28
-        y: 161
+        x: 1
+        y: 231
         width: 25
         height: 25
       alignment: 1
@@ -1040,8 +1040,8 @@ TextureImporter:
       name: arrow-numeric-pressed-up
       rect:
         serializedVersion: 2
-        x: 28
-        y: 134
+        x: 1
+        y: 260
         width: 25
         height: 25
       alignment: 1
@@ -1061,8 +1061,8 @@ TextureImporter:
       name: arrow-pressed-down
       rect:
         serializedVersion: 2
-        x: 28
-        y: 107
+        x: 1
+        y: 161
         width: 25
         height: 25
       alignment: 1
@@ -1082,8 +1082,8 @@ TextureImporter:
       name: arrow-pressed-left
       rect:
         serializedVersion: 2
-        x: 28
-        y: 80
+        x: 22
+        y: 200
         width: 25
         height: 25
       alignment: 1
@@ -1104,7 +1104,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 53
+        y: 231
         width: 25
         height: 25
       alignment: 1
@@ -1125,7 +1125,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 26
+        y: 260
         width: 25
         height: 25
       alignment: 1
@@ -1229,9 +1229,9 @@ TextureImporter:
       name: checkbox-deselected
       rect:
         serializedVersion: 2
-        x: 485
-        y: 467
-        width: 26
+        x: 488
+        y: 489
+        width: 23
         height: 22
       alignment: 1
       pivot: {x: 0, y: 1}
@@ -1250,9 +1250,9 @@ TextureImporter:
       name: checkbox-disabled-deselected
       rect:
         serializedVersion: 2
-        x: 485
-        y: 443
-        width: 26
+        x: 463
+        y: 475
+        width: 23
         height: 22
       alignment: 1
       pivot: {x: 0, y: 1}
@@ -1272,7 +1272,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 485
-        y: 419
+        y: 443
         width: 26
         height: 22
       alignment: 1
@@ -1292,9 +1292,9 @@ TextureImporter:
       name: checkbox-hover-deselected
       rect:
         serializedVersion: 2
-        x: 485
-        y: 395
-        width: 26
+        x: 28
+        y: 176
+        width: 24
         height: 22
       alignment: 1
       pivot: {x: 0, y: 1}
@@ -1314,7 +1314,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 485
-        y: 371
+        y: 419
         width: 26
         height: 22
       alignment: 1
@@ -1335,7 +1335,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 485
-        y: 347
+        y: 395
         width: 26
         height: 22
       alignment: 1
@@ -1352,15 +1352,99 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: front-1
+      name: class_mage_icon
       rect:
         serializedVersion: 2
         x: 352
-        y: 374
+        y: 342
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: -0.032258064, y: 1.032258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_priest_icon
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 375
         width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 1.032258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_thief_icon
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 343
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 1.032258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_warrior_icon
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 330
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: -0.06666667, y: 1.032258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front-1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 311
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: -0.071428575, y: 1.0714285}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1376,12 +1460,12 @@ TextureImporter:
       name: front-2
       rect:
         serializedVersion: 2
-        x: 386
-        y: 342
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 447
+        y: 284
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: -0.071428575, y: 1.0714285}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1397,12 +1481,12 @@ TextureImporter:
       name: front-3
       rect:
         serializedVersion: 2
-        x: 420
-        y: 329
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 477
+        y: 281
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: -0.071428575, y: 1.0714285}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1418,12 +1502,12 @@ TextureImporter:
       name: front-4
       rect:
         serializedVersion: 2
-        x: 454
-        y: 313
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 284
+        y: 344
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: -0.071428575, y: 1.0714285}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1439,12 +1523,12 @@ TextureImporter:
       name: front-5
       rect:
         serializedVersion: 2
-        x: 284
-        y: 340
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 314
+        y: 344
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: -0.071428575, y: 1.0714285}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1460,12 +1544,12 @@ TextureImporter:
       name: front-6
       rect:
         serializedVersion: 2
-        x: 318
-        y: 340
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 283
+        y: 314
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: -0.071428575, y: 1.0714285}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1481,12 +1565,12 @@ TextureImporter:
       name: front-alt-2
       rect:
         serializedVersion: 2
-        x: 352
-        y: 340
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 452
+        y: 314
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: -0.06896552, y: 1.0344827}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1502,12 +1586,12 @@ TextureImporter:
       name: front-alt-3
       rect:
         serializedVersion: 2
-        x: 386
-        y: 308
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 385
+        y: 312
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: -0.06896552, y: 1.0344827}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1523,12 +1607,12 @@ TextureImporter:
       name: front-alt-6
       rect:
         serializedVersion: 2
-        x: 420
-        y: 295
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 416
+        y: 299
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: -0.06896552, y: 1.0344827}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1536,27 +1620,6 @@ TextureImporter:
       bones: []
       spriteID: 36782fe9b41bbb910800000000000000
       internalID: 1854270609940449123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: panel-bg
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 279
-        width: 32
-        height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -1587,7 +1650,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 488
-        y: 491
+        y: 467
         width: 20
         height: 20
       alignment: 1
@@ -1608,7 +1671,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 463
-        y: 477
+        y: 453
         width: 20
         height: 20
       alignment: 1
@@ -1628,8 +1691,8 @@ TextureImporter:
       name: radio_button_default_hover
       rect:
         serializedVersion: 2
-        x: 463
-        y: 455
+        x: 394
+        y: 290
         width: 20
         height: 20
       alignment: 1
@@ -1649,8 +1712,8 @@ TextureImporter:
       name: radio_button_selected
       rect:
         serializedVersion: 2
-        x: 488
-        y: 325
+        x: 394
+        y: 268
         width: 20
         height: 20
       alignment: 1
@@ -1670,8 +1733,8 @@ TextureImporter:
       name: radio_button_selected_disabled
       rect:
         serializedVersion: 2
-        x: 488
-        y: 303
+        x: 391
+        y: 246
         width: 20
         height: 20
       alignment: 1
@@ -1691,8 +1754,8 @@ TextureImporter:
       name: radio_button_selected_hover
       rect:
         serializedVersion: 2
-        x: 488
-        y: 281
+        x: 49
+        y: 205
         width: 20
         height: 20
       alignment: 1
@@ -1754,8 +1817,8 @@ TextureImporter:
       name: slider_handle
       rect:
         serializedVersion: 2
-        x: 488
-        y: 242
+        x: 1
+        y: 188
         width: 19
         height: 37
       alignment: 1
@@ -1796,6 +1859,8 @@ TextureImporter:
       angled-alt-6: -5342287303286009648
       arrow-numeric-hover-up: -8830888603507725244
       radio_button_selected: 8083666968536495514
+      class_thief_icon: 0
+      class_warrior_icon: 0
       front-6: -7712631943814889480
       angled-6: -6035018984811011378
       arrow-disabled-right: 8646643194698788947
@@ -1829,6 +1894,7 @@ TextureImporter:
       panel: -4147214026715712772
       checkbox-hover-selected: 2298831666053808164
       checkbox-deselected: 3446063548771915463
+      class_mage_icon: 0
       angled-alt-3: 2783128320586840172
       arrow-numeric-disabled-up: 4558718509217481675
       arrow-numeric-hover-down: 2077528581590777645
@@ -1845,6 +1911,7 @@ TextureImporter:
       arrow-numeric-disabled-right: 8130729495332976322
       angled-2: 2066408914158976569
       arrow-pressed-down: 5218542730216592625
+      class_priest_icon: 0
       checkbox-selected: -6205694351208623155
       panel-bg: 0
       angled-4: 7709945110363714831
